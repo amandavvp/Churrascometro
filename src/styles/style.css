@@ -1,0 +1,79 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Alegreya SC', serif;
+    
+}
+
+body{
+    background-image: url(/src/imagens/GIF640.gif);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    
+}
+
+.container{
+    
+    text-align: center;
+    max-width: 300px;
+    margin: auto;
+    background-color: rgba(6, 7, 7, 0.982);
+    margin-top: 50px;
+    padding: 42px;
+    border-radius: 10px;
+}
+
+.logo{
+    color: white;
+}
+
+.subTitulo{
+    color: white;
+    padding-bottom: 10px;
+}
+
+input{
+    width: 100%;
+    display: block;
+    padding: 5px;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+}
+
+.botao{
+    width: 50%;
+    height: 50%;
+    
+}
+
+.result-info {
+    font-family: 'Alegreya SC', serif;
+    text-align: center;
+    color: white;
+    width: 0 auto;
+    margin-top: 1.5rem;
+}
+
+.result-block {
+    text-align: center;
+    display: flex;
+    align-items: center;
+    margin: 0.5rem;
+}
+  
+.result-block img {
+    text-align: center;
+    width: 1.5rem;
+    height: 1.5rem;
+    margin: 0;
+    margin-left: 3.5rem;
+    margin-right: 0.5rem;
+}
+  
+.result-block p {
+    font-family: 'Alegreya SC', serif;
+    text-align: center;
+    color: white;
+}

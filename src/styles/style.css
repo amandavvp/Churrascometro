@@ -6,14 +6,11 @@
 }
 
 body{
-    background-image: url(/src/imagens/GIF640.gif);
+    background-image: url(../imagens/GIF640.gif);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    background-attachment: fixed;
-   
-    
-    
+    background-attachment: fixed;    
 }
 
 .container{
